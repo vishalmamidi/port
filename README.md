@@ -32,6 +32,7 @@ telnet <ip-address or host> <port>
 telnet google.com 443
 ```
 ![image](https://user-images.githubusercontent.com/12382861/146546534-3d296fb9-4742-4331-89af-8b45ea0c1b4a.png)
+![image](https://user-images.githubusercontent.com/12382861/146751763-171e732b-dae9-4dcf-a3e1-212e7fc1c293.png)
 
 
 
