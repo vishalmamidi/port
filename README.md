@@ -1,7 +1,4 @@
-# Windows Powershell
-https://stackoverflow.com/questions/48198/how-can-you-find-out-which-process-is-listening-on-a-tcp-or-udp-port-on-windows
-https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
-
+# Windows CMD
 ## curl
 
 ```
@@ -22,6 +19,12 @@ failure
 * Closing connection 0
 curl: (7) Failed to connect to localhost port 960: Connection refused
 ```
+
+
+https://stackoverflow.com/questions/48198/how-can-you-find-out-which-process-is-listening-on-a-tcp-or-udp-port-on-windows
+https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
+# Windows Powershell
 
 ### netstat
 ```
