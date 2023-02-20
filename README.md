@@ -25,6 +25,10 @@ https://stackoverflow.com/questions/48198/how-can-you-find-out-which-process-is-
 https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
 # Windows Powershell
+### Test-NetConnection
+```
+Test-NetConnection -ComputerName vishalmamidi.com -Port 443
+```
 
 ### netstat
 ```
