@@ -1,3 +1,48 @@
+# Linux
+### Bash Shell
+
+```
+(timeout 2 bash -c '</dev/tcp/127.0.0.1/5000 && echo PORT OPEN || echo PORT CLOSED') 2>/dev/null
+```
+![image](https://user-images.githubusercontent.com/12382861/146758294-3adb5135-cdde-47b8-a99b-b3127440e0e6.png)
+
+### Netcat
+check
+```
+nc -zv 127.0.0.1 5000
+```
+-z = sets nc to simply scan for listening daemons, without actually sending any data to them  
+-v = enables verbose mode
+
+stream
+```
+nc 127.0.0.1 5000
+```
+
+### nmap 
+```bash
+nmap -sS -p- 0.0.0.0
+```
+-p- will scan all ports other than common once ( recomended )
+-sS stelth scan to void logging
+
+non-root user
+```bash
+nmap -sT 0.0.0.0
+```
+root user 
+```bash
+nmap -sS 0.0.0.0
+```
+
+![image](https://user-images.githubusercontent.com/12382861/146760517-6450f53e-9ef4-4b37-b334-ff35ee17c524.png)
+
+
+added new branch
+
+
+
+
 # Windows CMD
 ## curl
 
@@ -63,41 +108,4 @@ telnet google.com 443
 ![image](https://user-images.githubusercontent.com/12382861/146546534-3d296fb9-4742-4331-89af-8b45ea0c1b4a.png)
 ![image](https://user-images.githubusercontent.com/12382861/146751763-171e732b-dae9-4dcf-a3e1-212e7fc1c293.png)
 
-
-# Linux
-### Bash Shell
-
-```
-(timeout 2 bash -c '</dev/tcp/127.0.0.1/5000 && echo PORT OPEN || echo PORT CLOSED') 2>/dev/null
-```
-![image](https://user-images.githubusercontent.com/12382861/146758294-3adb5135-cdde-47b8-a99b-b3127440e0e6.png)
-
-### Netcat
-check
-```
-nc -zv 127.0.0.1 5000
-```
--z = sets nc to simply scan for listening daemons, without actually sending any data to them  
--v = enables verbose mode
-
-stream
-```
-nc 127.0.0.1 5000
-```
-
-### nmap 
-
-non-root user
-```
-nmap -sT 0.0.0.0
-```
-root user
-```
-nmap -sS 0.0.0.0
-```
-
-![image](https://user-images.githubusercontent.com/12382861/146760517-6450f53e-9ef4-4b37-b334-ff35ee17c524.png)
-
-
-added new branch
 
